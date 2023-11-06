@@ -40,7 +40,7 @@ Lastly, there is a transportation entity that represents the transportation serv
 
 
 ## Data Dictionary:
-file:///Users/Tashadiya/Desktop/Screen%20Shot%202023-11-06%20at%206.22.21%20PM.png
+![Screen Shot 2023-11-06 at 6 22 21 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4d05fe3c-e4e6-4428-a14c-168e9f869257)
 
 ![Screen Shot 2023-03-30 at 9 47 45 PM](https://user-images.githubusercontent.com/128402101/229002159-c7242e00-592e-4b10-9a09-1510a2728a4d.png)
 
