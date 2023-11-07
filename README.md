@@ -1,6 +1,6 @@
 # Mist 4610 Group Project 1
 
-## Team Name: YO
+## Team Name: JAJA
  
 
 ## Team Members:
