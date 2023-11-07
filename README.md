@@ -6,9 +6,9 @@
 ## Team Members:
 
 1. Adiya Tashmetova - 811924443 - [@adiyatashmetova](https://www.github.com/adiyatashmetova)
-2. Alexa Robles [@](https://www.github.com/)
+2. Alexa Robles - 811344707 - [@Alxaro](https://www.github.com/)
 3. Jackie Garcia-Torres [@jgarciatorres1](https://www.github.com/jgarciatorres1)
-4. Jessica Le [@](https://www.github.com/)
+4. Jessica Le - 811469318 - [@Jess1ica1le](https://www.github.com/)
 
 ## Problem Description:
 
