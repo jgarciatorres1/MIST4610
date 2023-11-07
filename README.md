@@ -21,25 +21,23 @@ Explanation of data model:
 
 Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. 
 
-Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). We need to track membership start and end dates, payment history, and any special discounts. We need to keep records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability.
+Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). Members can book many courts. And several courts can have many members through third weak entity Reservations. A member can make one or multiple reservations. A reservation is made by one member. A court can have multiple reservations. Each reservation is associated with one court.
 
-In Events table we have details about upcoming and past tournaments, leagues, and social events, including dates, times, and participating members.
+We are also keeping records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability. Members and Coaches table has many to many relationship. A coach can provide coaching to multiple members. A member can receive coaching from multiple coaches through coaching sessions (many-to-many relationship).
+
+In Events table we have details about upcoming and past tournaments, leagues, and social events, including dates, times, and participating members. Multiple members can participate in one or more events. Each event has multiple participating members (many-to-many relationship).
 
 In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers.
-
-Reservations entity would track court reservations made by members. It would include information about the date, time, duration, and the members who made the reservation.
 
 Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed.
 
 If the club offers equipment rental services, we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment.
 
+Maintenance Requests entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
 
+For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.
 
-10. **Maintenance Requests:** This entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
-
-11. **Guest Passes:** For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.
-
-12. **Feedback and Surveys:** To gather feedback from members and improve club services, you could have an entity for storing feedback and survey responses. This entity would include feedback details, member responses, and survey dates.
+To gather feedback from members and improve club services, we have an entity for storing feedback and survey responses. This entity includes feedback details, member responses, and survey dates.
 
 ![adiya](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/d6565799-cbc8-45ad-818a-5a311881d3b0)
 
