@@ -12,7 +12,7 @@
 
 ## Problem Description:
 
-After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, members, what items can be bought from there, and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these rrlationships, populating data, and running queries. We hope the queries will provide insight on the the tennis court's day-to-day operations.
+After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, members, what items can be bought from there, and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these relationships, populating data, and running queries. We hope the queries will provide insight on the the tennis court's day-to-day operations and allow us to observe patterns among the members.
 
 
 ## Data Model
