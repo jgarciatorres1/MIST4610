@@ -1,24 +1,25 @@
 # Mist 4610 Group Project 1
 
-## Team Name: 
+## Team Name: YO
  
 
 ## Team Members:
 
-1. Adiya Tashmetova [@taralpatel](https://www.github.com/taralbpatel)
-2. Alexa Robles [@angelmarsh](https://www.github.com/apm83682)
-3. Jackie Garcia-Torres [@rileydoggett](https://www.github.com/RileyDoggett)
-4. Jessica Le [@ripleykurtz](https://www.github.com/RipleyKurtz)
+1. Adiya Tashmetova - 811924443 -  [@adiyatashmetova](https://www.github.com/adiyatashmetova)
+2. Alexa Robles [@](https://www.github.com/)
+3. Jackie Garcia-Torres [@jgarciatorres1](https://www.github.com/jgarciatorres1)
+4. Jessica Le [@](https://www.github.com/)
 
 ## Problem Description:
 
-The task at hand is to model and build a reltional database for the general workings of a resort company. The central entity in the model is the Hotel entity of the resort- Hotel being each physical inn the company owns and operates in various locations. The hotel is operated in conjunction with the activities, dining establishments, transportation service, etc. that it offers to the guests who book with them. We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes with this sample data. Furthermore, we are interested in performing functioning queries on this data so that they may provide us with valuable business insight about the resort and its operations.
+After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, who are members, and what items can be bought from there and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members.
+
 
 ## Data Model
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical vacation resort. 
+Our model is based on the structure of a hypothetical tennis club. 
 The department entity is representative of a department (Finance, Human Resources, Food & Beverage, etc.) inside a resort location. Inside of this department, there are many employees, and this is represented by the one to many relationship we have placed between the Department and Employees entities. 
 
 There are also many employees inside of the hotel portion of the resort, which is why we established a one to many relationship between the Hotel and Employees tables as well. 
@@ -34,8 +35,6 @@ ActivityReservation contains the activity time, the number of guests, the reserv
 The resort offers a kids’ club which has a capacity, a contact email and phone number, and a rating. This is represented by the KidClub entity and its attributes. The kids’ club for the resort services the resort’s multiple hotels; therefore, there is a one-to-many relationship between the KidClub and Hotel entities.
 
 Lastly, there is a transportation entity that represents the transportation services associated with the resort. The resort provides shuttles, bikes, buses, and a specialty limo service for guest transportation. The resort has also partnered with Uber and Lyft to offer rides to customers at a discounted rate. This is all reflected in the transportation entity that has a many to one relationship with the Hotel entity because the Hotel has many transporters, but each transporter is mapped to a certain hotel.
-
-
 
 
 
