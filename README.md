@@ -7,12 +7,12 @@
 
 1. Adiya Tashmetova - 811924443 - [@adiyatashmetova](https://www.github.com/adiyatashmetova)
 2. Alexa Robles - 811344707 - [@Alxaro](https://www.github.com/)
-3. Jackie Garcia-Torres [@jgarciatorres1](https://www.github.com/jgarciatorres1)
+3. Jackie Garcia-Torres - 811301319 - [@jgarciatorres1](https://www.github.com/jgarciatorres1)
 4. Jessica Le - 811469318 - [@Jess1ica1le](https://www.github.com/)
 
 ## Problem Description:
 
-After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, who are members, and what items can be bought from there and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members.
+After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, members, what items can be bought from there, and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these rrlationships, populating data, and running queries. We hope the queries will provide insight on the the tennis court's day-to-day operations.
 
 
 ## Data Model
