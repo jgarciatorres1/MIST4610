@@ -19,23 +19,34 @@ After thoughtful conversation with our client ChatGPT, we made with team a relat
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). We need to track membership start and end dates, payment history, and any special discounts. We need to keep records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability.
-Yes, coaches in a tennis club typically coach multiple members. This creates a many-to-many relationship between coaches and members. Each coach can have multiple members they provide coaching to, and each member can be coached by multiple coaches, especially if the club offers different coaching programs, clinics, or private coaching sessions.
+Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. 
+
+Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). We need to track membership start and end dates, payment history, and any special discounts. We need to keep records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability.
+
+In Events table we have details about upcoming and past tournaments, leagues, and social events, including dates, times, and participating members.
+
+In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers.
+
+Reservations entity would track court reservations made by members. It would include information about the date, time, duration, and the members who made the reservation.
+
+Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed.
+
+If the club offers equipment rental services, we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment.
+
+
+10. **Maintenance Requests:** This entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
+
+11. **Guest Passes:** For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.
+
+12. **Feedback and Surveys:** To gather feedback from members and improve club services, you could have an entity for storing feedback and survey responses. This entity would include feedback details, member responses, and survey dates.
 
 
 
 
-3. **Coaching Programs:** We provide coaching programs for beginners, intermediate players, and advanced players. These programs are conducted by certified tennis coaches and can be scheduled by members.
-
-4. **Tournaments and Events:** We regularly organize tennis tournaments, leagues, and social events for our members. These events are an important part of our club's activities.
-
-5. **Pro Shop:** We have a pro shop on-site that sells tennis equipment, apparel, and accessories.
-
-To keep track of all sales transactions and events happening there, we created Members entity that include
-The 
 
 
-The department entity is representative of a department (Finance, Human Resources, Food & Beverage, etc.) inside a resort location. Inside of this department, there are many employees, and this is represented by the one to many relationship we have placed between the Department and Employees entities. 
+
+//The department entity is representative of a department (Finance, Human Resources, Food & Beverage, etc.) inside a resort location. Inside of this department, there are many employees, and this is represented by the one to many relationship we have placed between the Department and Employees entities. 
 
 There are also many employees inside of the hotel portion of the resort, which is why we established a one to many relationship between the Hotel and Employees tables as well. 
 
