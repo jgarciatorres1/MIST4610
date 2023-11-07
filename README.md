@@ -34,19 +34,22 @@ Billing and Invoices created to manage payments and invoices for membership fees
 If the club offers equipment rental services, we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment.
 
 
+
 10. **Maintenance Requests:** This entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
 
 11. **Guest Passes:** For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.
 
 12. **Feedback and Surveys:** To gather feedback from members and improve club services, you could have an entity for storing feedback and survey responses. This entity would include feedback details, member responses, and survey dates.
 
-
+![adiya](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/d6565799-cbc8-45ad-818a-5a311881d3b0)
 
 ## Data Dictionary:
-![Screen Shot 2023-11-06 at 6 22 21 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4d05fe3c-e4e6-4428-a14c-168e9f869257)
 
-![Screen Shot 2023-11-06 at 6 48 33 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/5505fbab-be0a-461c-9a90-9bc633f59c6d)
+![Screen Shot 2023-11-07 at 6 05 09 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/bd372db9-f124-4275-8e0b-5f355cc74826)
 
+![Screen Shot 2023-11-07 at 6 05 24 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4e0a6839-10d5-42c4-b70c-97373c9ea81f)
+
+![Screen Shot 2023-11-07 at 6 05 39 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/783d7b5e-98cf-4c29-a577-33f17e309726)
 
 
 ## Queries:
