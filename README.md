@@ -12,14 +12,29 @@
 
 ## Problem Description:
 
-After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model illustrates what kind of events take place, when and on which courts, members, what items can be bought from there, and how much that costs. The tennis club is operated in conjuction with Cafeteria, Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these relationships, populating data, and running queries. We hope the queries will provide insight on the the tennis club's day-to-day operations and allow us to observe patterns among the members.
+After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model keeps track of what kind of events take place, when and on which courts they occur, tennis club members information and costs associated with membership type. The tennis club is operated in conjuction with Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these relationships, populating data, and running queries. We hope the queries will provide insight on the the tennis club's day-to-day operations and allow us to observe patterns among the members.
 
 
 ## Data Model
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical tennis club. 
+Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). We need to track membership start and end dates, payment history, and any special discounts. We need to keep records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability.
+Yes, coaches in a tennis club typically coach multiple members. This creates a many-to-many relationship between coaches and members. Each coach can have multiple members they provide coaching to, and each member can be coached by multiple coaches, especially if the club offers different coaching programs, clinics, or private coaching sessions.
+
+
+
+
+3. **Coaching Programs:** We provide coaching programs for beginners, intermediate players, and advanced players. These programs are conducted by certified tennis coaches and can be scheduled by members.
+
+4. **Tournaments and Events:** We regularly organize tennis tournaments, leagues, and social events for our members. These events are an important part of our club's activities.
+
+5. **Pro Shop:** We have a pro shop on-site that sells tennis equipment, apparel, and accessories.
+
+To keep track of all sales transactions and events happening there, we created Members entity that include
+The 
+
+
 The department entity is representative of a department (Finance, Human Resources, Food & Beverage, etc.) inside a resort location. Inside of this department, there are many employees, and this is represented by the one to many relationship we have placed between the Department and Employees entities. 
 
 There are also many employees inside of the hotel portion of the resort, which is why we established a one to many relationship between the Hotel and Employees tables as well. 
