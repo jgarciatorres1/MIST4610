@@ -69,6 +69,9 @@ If the club offers equipment rental services, we have Equipment Rentals entity t
 
 ![Screen Shot 2023-11-07 at 6 15 47 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/33b453b9-a95a-4fb0-8a01-258a334fd04b)
 
+![Screen Shot 2023-11-07 at 6 19 51 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/a894246b-fac0-4785-b7ce-2bb7bcab2355)
+
+![Screen Shot 2023-11-07 at 6 19 36 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/dce39ebd-677c-4426-aecc-a143477e0959)
 
 
 ## Queries:
