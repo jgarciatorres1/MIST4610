@@ -137,11 +137,12 @@ Query 8 allows the tennis club to have insight into the maintenance and manageme
 Query 9 enables the tennis club to utilize canceled reservations by adding new bookings. This is a crucial step to prevent member dissatisfaction resulting from unoccupied reservation slots.
 
 
-10. Query 10 reports all the events that are not practice events
+10. Query 10 reports all the events that are not practice events and in Court 1.
     
-![Screen Shot 2023-11-07 at 10 17 54 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/c79082fa-c521-4264-a7d2-5b26f70b65ab)
+![Screen Shot 2023-11-07 at 11 34 27 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4f9c1c7d-8782-4d7a-b082-2257dfaf6ba3)
 
-Query 10 allows the tennis club to market themselves by advertising the non practice events. The club can put up ads online to attract potential new members.
+
+Query 10 allows the tennis club to market themselves by advertising the non practice events. The club can put up ads online to attract potential new members to attend events in Court 1.
 
 
 ## Database information:
