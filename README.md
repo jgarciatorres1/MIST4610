@@ -104,7 +104,8 @@ Query 4 allows the Tennis Club to keep track of the indoor courts that need main
 
 5. Query 5 reports the members who have rented equipment and have a pending payment status.
 
-(screenshot)
+![Screen Shot 2023-11-07 at 10 04 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4675544b-09ad-4f02-ab61-e1a6a41b2081)
+
 
 Query 5 allows the Tennis Club to make sure their members are paying for the equipment they are using. If there are members with a pending payment status they can send them a friendly reminder that they still have a pending invoice. 
 
