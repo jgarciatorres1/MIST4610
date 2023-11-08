@@ -96,7 +96,8 @@ Query 3 allows the Tennis Club to keep track of their employees and their hours.
 
  4. Query 4 reports the courts that are indoor and have maintenance requests that have yet to be completed.
 
-(screenshot)
+![Screen Shot 2023-11-07 at 9 53 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/2283cd63-16c1-4075-80f3-302b2f73b3cf)
+
 
 Query 4 allows the Tennis Club to keep track of the indoor courts that need maintenance done. This is essential because if the tennis courts have damages they must be fixed in order for the members to use the indoor courts.
 
