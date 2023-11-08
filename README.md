@@ -115,9 +115,10 @@ Query 5 allows the Tennis Club to make sure their members are paying for the equ
 Query 6 allows the Tennis Club management to keep track of the hours the staff is working. If there is any staff working more than their boss this could serve as a way for that staff to get promoted. 
 
 
-7. Query 7 reports the combined fees for events attended by members who possess a guest pass and fall within the age range of 25 to 50. 
+7. Query 7 reports the combined rental equipment fee by a members who possesss a guest pass and falls within the age range of 50 to 75. 
 
-(screenshot)
+![Screen Shot 2023-11-07 at 11 11 31 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/65bd3b00-9fdb-4039-a4f6-06dabf508ee0)
+
 
 Query 7 allows the tennis club to analyze the amount of fees collected from this specific group to figure out the financial impact they have on the club. Additionally this information can help the tennis club decide their pricing to increase their revenue.
 
