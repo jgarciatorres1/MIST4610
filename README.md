@@ -98,14 +98,12 @@ Query 3 allows the Tennis Club to keep track of their employees and their hours.
 
 ![Screen Shot 2023-11-07 at 9 53 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/2283cd63-16c1-4075-80f3-302b2f73b3cf)
 
-
 Query 4 allows the Tennis Club to keep track of the grass courts that need maintenance done. This is essential because if the tennis courts have damages in their grass they must fix it in order for member satisfaction to remain in tact and for them to utilize said grass courts.
 
 
 5. Query 5 reports the members who have rented equipment and have a pending payment status.
 
 ![Screen Shot 2023-11-07 at 10 04 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/4675544b-09ad-4f02-ab61-e1a6a41b2081)
-
 
 Query 5 allows the Tennis Club to make sure their members are paying for the equipment they are using. If there are members with a pending payment status they can send them a friendly reminder that they still have a pending invoice. 
 
@@ -128,13 +126,12 @@ Query 7 allows the tennis club to analyze the amount of fees collected from this
 
 ![Screen Shot 2023-11-07 at 10 09 15 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/0554cd38-f68c-4e18-bff0-21802eace362)
 
-
 Query 8 allows the tennis club to have insight into the maintenance and management of clay courts so that they can ensure member satisfaction. When a staff member puts in the maintenance request and members are satisfied the club runs smoothly and generates more revenue.
 
 
 9. Query 9 reports the reservations that have been canceled
 
-(screenshot)
+![Screen Shot 2023-11-07 at 10 15 05 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/bdee6099-5d01-4533-98ef-2d8ca0c4c6b4)
 
 Query 9 enables the tennis club to utilize canceled reservations by adding new bookings. This is a crucial step to prevent member dissatisfaction resulting from unoccupied reservation slots.
 
