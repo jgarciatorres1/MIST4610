@@ -19,14 +19,22 @@ After a thoughtful conversation with our client ChatGPT, we made with team a rel
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia 
+Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia
+
 As our client mentioned, our data model has several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. As per our discussion with the professor, we created a new entity that our client didn’t mention about. Members and coaches can have many different sessions and one session belongs only to one member and one coach at a time. Also, one court can hold different coaching sessions, while one session/lesson can be played only on one court. That’s why we have one to many relationships between those entities.
+
 One member who decides to play tennis without need of help from the coach can make many reservations at different times, while 1 reservation can be booked by 1 member. Similarly, each booked reservation has a place to take - courts. So, 1 court can be used on different reservations, because it will be held on different times with different members.
+
 Sometimes, courts may experience problems, so we created a Maintenance entity to keep track of issues. One court can have different maintenance requests, but 1 request can belong to a specific court, because of its unique description. Person who is responsible for the maintenance request is a staff member. And, one staff member can handle multiple maintenance requests on a single court. So, the relationship between staff and maintenance requests is one to many.
+
 There are often events happening in our tennis club, such as social events or competitions. So, we linked Events and Member entities with Events_has_members table as a weak associative entity and an identifying relationship, whereas Events_has_members primary keys are primary keys of Members and Events table.
+
 In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers. Many items from the pro shop store are associated with the invoice so we have one to many relationships.
+
 For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.Since, one member is provided with several guest passes to share with friends, and one guest pass can belong only to one member, we created one to many non-identifying relationship.
+
 Same relationship is applied to ‘Equipment Rentals’ and ‘Feedback and surveys’ .To gather feedback from members and improve club services, we have an entity for storing feedback and survey responses, where one member can provide multiple feedback, either positive or negative. And, feedback can be written by only 1 member. And, one member can rent several rentals, but specific one rental can be associated with one 1 member.
+
 Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed. A member can have multiple billing and invoice records. Each billing and invoice record is associated with one member.
 
 ![adiya](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/d6565799-cbc8-45ad-818a-5a311881d3b0)
