@@ -146,7 +146,7 @@ Query 10 allows the tennis club to market themselves by advertising the non prac
 
 ## Database information:
 
-Name of the database: ns_21479_1
+Name of the database: cs_g11p1
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: 
 CALL TP_Q1();
