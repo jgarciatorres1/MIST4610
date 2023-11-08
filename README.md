@@ -21,17 +21,17 @@ Explanation of data model:
 
 Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. 
 
-Our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Each member has a unique ID, contact information, and membership type (silver, gold, platinum). Members can book many courts. And several courts can have many members through third weak entity Reservations. A member can make one or multiple reservations. A reservation is made by one member. A court can have multiple reservations. Each reservation is associated with one court.
+As our client mentioned, our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Members have a many-to-many relationship with courts, as members can book and use multiple courts, and courts can be reserved by multiple members. This relationship also involves a junction table 'Reservation' to manage court reservations.
 
-We are also keeping records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability. Members and Coaches table has many to many relationship. A coach can provide coaching to multiple members. A member can receive coaching from multiple coaches through coaching sessions (many-to-many relationship).
+We are also keeping records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability. Members have a many-to-many relationship with coaches, as members can receive coaching from multiple coaches, and coaches can provide coaching to multiple members. This relationship involves an intermediate or junction table 'CoachMemSession' to represent coaching sessions. 
 
 In Events table we have details about upcoming and past tournaments, leagues, and social events, including dates, times, and participating members. Multiple members can participate in one or more events. Each event has multiple participating members (many-to-many relationship).
 
-In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers.
+In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers. Many items from pro shop store are associated with the invoice so we have one to many relationship.
 
-Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed.
+Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed. A member can have multiple billing and invoice records. Each billing and invoice record is associated with one member.
 
-If the club offers equipment rental services, we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment.
+Our club offers equipment rental services, so we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment. One member can rent several rentals, so we linked two entities with one to many relationship.
 
 Maintenance Requests entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
 
