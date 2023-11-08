@@ -73,6 +73,9 @@ We also created recursive relationship inside Staff entity, showing who is the b
 
 
 ## Queries:
+
+![Screen Shot 2023-11-07 at 11 49 38 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/7ff739de-6f24-4559-b4a9-0e0a7d389bac)
+
 1. Query 1 reports the number of customers who have a Silver Membership.
    
 <img width="795" alt="query1" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/5c92df04-8bb8-4a43-ade8-d455f12adb09">
