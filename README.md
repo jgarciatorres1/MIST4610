@@ -82,17 +82,16 @@ Query 1 allows the Tennis Club to keep track of their Silver Members in order to
 
 2. Query 2 reports the first and last names of members older than thirty who have a tennis coaching session.
 
-<img width="797" alt="query2" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/a17d8a3d-7feb-4374-bba1-98b8e04aa4ef">
+(Screenshot)
 
 Query 2 allows the Tennis Club to send out advertisements to those older than thirty for items that might benefit them in their coaching sessions. It also allows them to keep track of the members who most frequently use the coaching sessions. 
 
 
-3.  Query 3 lists the names of staff who have worked more than 40 hours. 
+3.  Query 3 lists the first and last names of staff who have worked more than 40 hours. 
 
+<img width="797" alt="query2" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/a17d8a3d-7feb-4374-bba1-98b8e04aa4ef">
 
-(SCREEN SHOT)
-
-Query 3 allows the Tennis Club to keep track of their employees and their hours. This is beneficial so that the club can allocate the proper hours to each staff member and always have the Tennis Club properly staffed.
+Query 3 allows the Tennis Club to keep track of their employees and their hours. This is beneficial so that the club can allocate the proper hours to each staff member and always have the Tennis Club properly staffed, ensuring no one is being overworked or underworked.
 
 
  4. Query 4 reports the courts that are indoor and have maintenance requests that have yet to be completed.
