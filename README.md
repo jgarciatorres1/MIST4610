@@ -75,12 +75,7 @@ To gather feedback from members and improve club services, we have an entity for
 ## Queries:
 <img width="795" alt="query1" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/5c92df04-8bb8-4a43-ade8-d455f12adb09">
 
-
-<img width="795" alt="query1" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/ad1d4cb4-f713-4635-9663-9713de647e71">
-
 1. Query 1 lists the number of reservations at each dining establishment that were made for between 6 and 8pm as well as the name of each dining establishment these reservation were made for. The results are also ordered by number of reservations in descending order.
-
-![Screen Shot 2023-03-31 at 5 50 12 PM](https://user-images.githubusercontent.com/128402101/229239154-7637136b-5ddd-400c-9335-f3e571507ed7.png)
 
 Query 1 allows allows managers to see which establishments have received the most number of reservations during their busiest time (6-8pm) which is typically dinner time. These establishments likely need more support, resources, and personnel around dinner time. Therefore, this query allows managers to identify which establishments to allocate this extra help to. Listing the results in descending order of number of reservations makes it easier to see which establishment to prioritize.
 
