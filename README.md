@@ -138,7 +138,7 @@ Query 9 enables the tennis club to utilize canceled reservations by adding new b
 
 10. Query 10 reports all the events that are not practice events
     
-(screenshot)
+![Screen Shot 2023-11-07 at 10 17 54 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/c79082fa-c521-4264-a7d2-5b26f70b65ab)
 
 Query 10 allows the tennis club to market themselves by advertising the non practice events. The club can put up ads online to attract potential new members.
 
