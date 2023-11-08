@@ -82,7 +82,7 @@ Query 1 allows the Tennis Club to keep track of their Silver Members in order to
 
 2. Query 2 reports the first and last names of members older than thirty who have a tennis coaching session.
 
-(Screenshot)
+<img width="794" alt="query2fr" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/95314980-1f8e-40e8-8ab5-e6c20fed22d7">
 
 Query 2 allows the Tennis Club to send out advertisements to those older than thirty for items that might benefit them in their coaching sessions. It also allows them to keep track of the members who most frequently use the coaching sessions. 
 
