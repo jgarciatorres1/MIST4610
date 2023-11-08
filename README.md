@@ -107,8 +107,10 @@ Query 4 allows the Tennis Club to keep track of the grass courts that need maint
 
 Query 5 allows the Tennis Club to make sure their members are paying for the equipment they are using. If there are members with a pending payment status they can send them a friendly reminder that they still have a pending invoice. 
 
-6. Query 6 allows us to see the feedback
+6. Query 6 allows us to identify members who have submitted "Bug Report" feedback but have done so infrequently (less than 3 times). 
 <img width="794" alt="image" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/f289e369-4d4a-4a73-819f-dbe16fe60803">
+
+This information can be useful for tracking and addressing software issues or for communication and follow-up with members who may have encountered bugs in the system.
 
 7. Query 7 reports the combined rental equipment fee by a members who possesss a guest pass and falls within the age range of 50 to 75. 
 
