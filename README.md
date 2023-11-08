@@ -99,7 +99,7 @@ Query 3 allows the Tennis Club to keep track of their employees and their hours.
 ![Screen Shot 2023-11-07 at 9 53 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/2283cd63-16c1-4075-80f3-302b2f73b3cf)
 
 
-Query 4 allows the Tennis Club to keep track of the indoor courts that need maintenance done. This is essential because if the tennis courts have damages in their turf grass they must fix it in order for member satisfaction to remain in tact and for them to utilize said turf grass courts.
+Query 4 allows the Tennis Club to keep track of the grass courts that need maintenance done. This is essential because if the tennis courts have damages in their grass they must fix it in order for member satisfaction to remain in tact and for them to utilize said grass courts.
 
 
 5. Query 5 reports the members who have rented equipment and have a pending payment status.
@@ -124,11 +124,12 @@ Query 6 allows the Tennis Club management to keep track of the hours the staff i
 Query 7 allows the tennis club to analyze the amount of fees collected from this specific group to figure out the financial impact they have on the club. Additionally this information can help the tennis club decide their pricing to increase their revenue.
 
 
-8. Query 8 reports the staff member who has put in a maintenance request for an outdoor court and report by last name desc. 
+8. Query 8 reports the staff member who has put in a maintenance request for an clay court and report by last name desc. 
 
-(screenshot)
+![Screen Shot 2023-11-07 at 10 09 15 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/0554cd38-f68c-4e18-bff0-21802eace362)
 
-Query 8 allows the tennis club to have insight into the maintenance and management of outdoor courts so that they can ensure member satisfaction. When a staff member puts in the maintenance request and members are satisfied the club runs smoothly and generates more revenue.
+
+Query 8 allows the tennis club to have insight into the maintenance and management of clay courts so that they can ensure member satisfaction. When a staff member puts in the maintenance request and members are satisfied the club runs smoothly and generates more revenue.
 
 
 9. Query 9 reports the reservations that have been canceled
