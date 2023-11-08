@@ -109,8 +109,8 @@ Query 5 allows the Tennis Club to make sure their members are paying for the equ
 
 
 6. Query 6 reports the staff that works more than the staff boss.
-
-(screenshot)
+   
+<img width="635" alt="query6" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/b2e0b488-960f-4987-9e5a-14bdc3d49232">
 
 Query 6 allows the Tennis Club management to keep track of the hours the staff is working. If there is any staff working more than their boss this could serve as a way for that staff to get promoted. 
 
