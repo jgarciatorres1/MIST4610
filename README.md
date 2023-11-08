@@ -125,9 +125,10 @@ Query 7 allows the tennis club to analyze the amount of fees collected from this
 Query 8 allows the tennis club to have insight into the maintenance and management of clay courts so that they can ensure member satisfaction. When a staff member puts in the maintenance request and members are satisfied the club runs smoothly and generates more revenue.
 
 
-9. Query 9 reports the reservations that have been canceled
+9. Query 9 reports the reservations that have been canceled and are 30 minutes long.
 
-![Screen Shot 2023-11-07 at 10 15 05 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/bdee6099-5d01-4533-98ef-2d8ca0c4c6b4)
+![Screen Shot 2023-11-07 at 11 45 18 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/b8231b13-3ff5-4ed9-931b-78e41bd0a111)
+
 
 Query 9 enables the tennis club to utilize canceled reservations by adding new bookings. This is a crucial step to prevent member dissatisfaction resulting from unoccupied reservation slots.
 
