@@ -12,7 +12,7 @@
 
 ## Problem Description:
 
-After thoughtful conversation with our client ChatGPT, we made with team a relational database for tennis club with central entity of members. That model keeps track of what kind of events take place, when and on which courts they occur, tennis club members information and costs associated with membership type. The tennis club is operated in conjuction with Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these relationships, populating data, and running queries. We hope the queries will provide insight on the the tennis club's day-to-day operations and allow us to observe patterns among the members.
+After a thoughtful conversation with our client ChatGPT, we made with team a relational database for the tennis club with the central entity of members. That model keeps track of what kind of events take place, when and on which courts they occur, tennis club member's information and costs associated with membership type. The tennis club is operated in conjunction with Pro Shop store and coaches that give paid lessons to members. We are interested in modeling these relationships, populating data, and running queries. We hope the queries will provide insight into the the tennis club's day-to-day operations and allow us to observe patterns among the members.
 
 
 ## Data Model
@@ -76,6 +76,7 @@ To gather feedback from members and improve club services, we have an entity for
 <img width="795" alt="query1" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/5c92df04-8bb8-4a43-ade8-d455f12adb09">
 
 
+<img width="795" alt="query1" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/ad1d4cb4-f713-4635-9663-9713de647e71">
 
 1. Query 1 lists the number of reservations at each dining establishment that were made for between 6 and 8pm as well as the name of each dining establishment these reservation were made for. The results are also ordered by number of reservations in descending order.
 
