@@ -94,12 +94,12 @@ Query 2 allows the Tennis Club to send out advertisements to those older than th
 Query 3 allows the Tennis Club to keep track of their employees and their hours. This is beneficial so that the club can allocate the proper hours to each staff member and always have the Tennis Club properly staffed, ensuring no one is being overworked or underworked.
 
 
- 4. Query 4 reports the courts that are indoor and have maintenance requests that have yet to be completed.
+ 4. Query 4 reports the courts that are made of turf grass material and have maintenance requests that have yet to be completed.
 
 ![Screen Shot 2023-11-07 at 9 53 30 PM](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/2283cd63-16c1-4075-80f3-302b2f73b3cf)
 
 
-Query 4 allows the Tennis Club to keep track of the indoor courts that need maintenance done. This is essential because if the tennis courts have damages they must be fixed in order for the members to use the indoor courts.
+Query 4 allows the Tennis Club to keep track of the indoor courts that need maintenance done. This is essential because if the tennis courts have damages in their turf grass they must fix it in order for member satisfaction to remain in tact and for them to utilize said turf grass courts.
 
 
 5. Query 5 reports the members who have rented equipment and have a pending payment status.
