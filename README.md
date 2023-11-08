@@ -19,25 +19,15 @@ After a thoughtful conversation with our client ChatGPT, we made with team a rel
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia. They cater to tennis enthusiasts of all ages and skill levels, providing a wide range of services and activities related to the sport of tennis. 
-
-As our client mentioned, our data model have several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. Members have a many-to-many relationship with courts, as members can book and use multiple courts, and courts can be reserved by multiple members. This relationship also involves a junction table 'Reservation' to manage court reservations.
-
-We are also keeping records of the certified tennis coaches, their contact details, coaching programs they offer, and their availability. Members have a many-to-many relationship with coaches, as members can receive coaching from multiple coaches, and coaches can provide coaching to multiple members. This relationship involves an intermediate or junction table 'CoachMemSession' to represent coaching sessions. 
-
-In Events table we have details about upcoming and past tournaments, leagues, and social events, including dates, times, and participating members. Multiple members can participate in one or more events. Each event has multiple participating members (many-to-many relationship).
-
-In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers. Many items from pro shop store are associated with the invoice so we have one to many relationship.
-
+Our model is based on the structure of a hypothetical tennis club "Ace Haven Tennis Club", a thriving sports facility located in Athens, Georgia 
+As our client mentioned, our data model has several tennis courts, both indoor and outdoor, for members and guests to use. These courts are maintained and can be reserved for play. As per our discussion with the professor, we created a new entity that our client didn’t mention about. Members and coaches can have many different sessions and one session belongs only to one member and one coach at a time. Also, one court can hold different coaching sessions, while one session/lesson can be played only on one court. That’s why we have one to many relationships between those entities.
+One member who decides to play tennis without need of help from the coach can make many reservations at different times, while 1 reservation can be booked by 1 member. Similarly, each booked reservation has a place to take - courts. So, 1 court can be used on different reservations, because it will be held on different times with different members.
+Sometimes, courts may experience problems, so we created a Maintenance entity to keep track of issues. One court can have different maintenance requests, but 1 request can belong to a specific court, because of its unique description. Person who is responsible for the maintenance request is a staff member. And, one staff member can handle multiple maintenance requests on a single court. So, the relationship between staff and maintenance requests is one to many.
+There are often events happening in our tennis club, such as social events or competitions. So, we linked Events and Member entities with Events_has_members table as a weak associative entity and an identifying relationship, whereas Events_has_members primary keys are primary keys of Members and Events table.
+In Pro Shop Inventory we keep information about the items available in the pro shop, their stock levels, prices, and suppliers. Many items from the pro shop store are associated with the invoice so we have one to many relationships.
+For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.Since, one member is provided with several guest passes to share with friends, and one guest pass can belong only to one member, we created one to many non-identifying relationship.
+Same relationship is applied to ‘Equipment Rentals’ and ‘Feedback and surveys’ .To gather feedback from members and improve club services, we have an entity for storing feedback and survey responses, where one member can provide multiple feedback, either positive or negative. And, feedback can be written by only 1 member. And, one member can rent several rentals, but specific one rental can be associated with one 1 member.
 Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed. A member can have multiple billing and invoice records. Each billing and invoice record is associated with one member.
-
-Our club offers equipment rental services, so we have Equipment Rentals entity to track the equipment available for rent, rental periods, rental fees, and the members who rent equipment. One member can rent several rentals, so we linked two entities with one to many relationship.
-
-Maintenance Requests entity would manage maintenance requests for tennis courts and other facilities. It would include information about the issue, the date of the request, and the status of the maintenance.
-
-For guests visiting the club, an entity for guest passes could track the usage of guest passes, their validity period, and the members who sponsor these guests.
-
-To gather feedback from members and improve club services, we have an entity for storing feedback and survey responses. This entity includes feedback details, member responses, and survey dates.
 
 ![adiya](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/d6565799-cbc8-45ad-818a-5a311881d3b0)
 
