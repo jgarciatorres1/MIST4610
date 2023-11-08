@@ -107,13 +107,8 @@ Query 4 allows the Tennis Club to keep track of the grass courts that need maint
 
 Query 5 allows the Tennis Club to make sure their members are paying for the equipment they are using. If there are members with a pending payment status they can send them a friendly reminder that they still have a pending invoice. 
 
-
-6. Query 6 reports the staff that works more than the staff boss.
-   
-<img width="635" alt="query6" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/b2e0b488-960f-4987-9e5a-14bdc3d49232">
-
-Query 6 allows the Tennis Club management to keep track of the hours the staff is working. If there is any staff working more than their boss this could serve as a way for that staff to get promoted. 
-
+6. Query 6 allows us to see the feedback
+<img width="794" alt="image" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/f289e369-4d4a-4a73-819f-dbe16fe60803">
 
 7. Query 7 reports the combined rental equipment fee by a members who possesss a guest pass and falls within the age range of 50 to 75. 
 
@@ -143,6 +138,12 @@ Query 9 enables the tennis club to utilize canceled reservations by adding new b
 
 
 Query 10 allows the tennis club to market themselves by advertising the non practice events. The club can put up ads online to attract potential new members to attend events in Court 1.
+
+Bonus. Query 6 reports the staff that works more than the staff boss.
+   
+<img width="635" alt="query6" src="https://github.com/jgarciatorres1/MIST4610Project1/assets/100004680/b2e0b488-960f-4987-9e5a-14bdc3d49232">
+
+Bonus Query allows the Tennis Club management to keep track of the hours the staff is working. If there is any staff working more than their boss this could serve as a way for that staff to get promoted. 
 
 
 ## Database information:
