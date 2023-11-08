@@ -89,8 +89,8 @@ Query 2 allows the Tennis Club to send out advertisements to those older than th
 
 3.  Query 3 lists the names of staff who have worked more than 40 hours. 
 
-![Screen Shot 2023-03-31 at 5 50 39 PM](https://user-images.githubusercontent.com/128402101/229239237-725cac35-598a-49e5-9b5d-bfc96fb18714.png)
 
+(SCREEN SHOT)
 
 Query 3 allows the Tennis Club to keep track of their employees and their hours. This is beneficial so that the club can allocate the proper hours to each staff member and always have the Tennis Club properly staffed.
 
@@ -138,6 +138,7 @@ Query 9 enables the tennis club to utilize canceled reservations by adding new b
 
 
 10. Query 10 reports all the events that are not practice events
+    
 (screenshot)
 
 Query 10 allows the tennis club to market themselves by advertising the non practice events. The club can put up ads online to attract potential new members.
