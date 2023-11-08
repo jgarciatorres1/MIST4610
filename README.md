@@ -37,6 +37,8 @@ Same relationship is applied to ‘Equipment Rentals’ and ‘Feedback and surv
 
 Billing and Invoices created to manage payments and invoices for membership fees, coaching programs, and other services, this entity would include details such as invoice number, payment date, payment method, and the items or services billed. A member can have multiple billing and invoice records. Each billing and invoice record is associated with one member.
 
+We also created recursive relationship inside Staff entity, showing who is the boss/manager of a specific staff member.
+
 ![adiya](https://github.com/jgarciatorres1/MIST4610Project1/assets/149015175/d6565799-cbc8-45ad-818a-5a311881d3b0)
 
 ## Data Dictionary:
